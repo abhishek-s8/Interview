@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1{
+  font-size: 44px;
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  width:1000px
+}
+
+h2{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px; 
+  font-weight: normal;
+}
+
+h3{
+  font-size: 20px;
+  width:1000px
+  font-weight: normal;
+}
+
+h4{
+  font-size: 16px;
+  width: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-left: 10px;
+  color:darkblue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 13px;
+  letter-spacing:0.5px; 
+}
+
+img {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 85px 0px 0px 120px;
+}
+
+.row:after {
+  content: "";
+  box-sizing: border-box;
+  display: table;
+  clear: both;
+}
+
+.header {
+  padding: 10px;
+  background: white;
+  color: black;
+  font-size: 10px;
+}
+
+.menu {
+  text-align: left;
+  padding-top: 28.3px;
+}
+
+.greyBar {
+  padding: 10px;
+  text-align: center;
+  background: #eaeaea;
+  color: black;
+  font-size: 10px;
+}
+
+.leftButton {
+  width: 190px;
+  height: 37px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  text-align: left;
+  color: black;
+  border-radius: 3px 0px 0px 3px;
+  font-size: 13px;
+  border-right: 1.5px solid #ddd;
+  letter-spacing:0.5px; 
+}
+
+.middleButton1 {
+  width: 105px;
+  height: 37px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  text-align: left;
+  color: black;
+  border-radius: 0px 0px 0px 0px;
+  font-size: 13px;
+  border-right: 1.5px solid #ddd;
+  letter-spacing:0.5px; 
+}
+
+.middleButton2 {
+  width: 130px;
+  height: 37px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  text-align: left;
+  color: black;
+  border-radius: 0px 0px 0px 0px;
+  font-size: 13px;
+  border-right: 1.5px solid #ddd;
+  letter-spacing:0.5px; 
+}
+
+.rightButton {
+  width: 175px;
+  height: 37px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  text-align: left;
+  color: black;
+  border-radius: 0px 0px 0px 0px;
+  font-size: 13px;
+  letter-spacing:0.5px; 
+}
+
+.headerButton {
+  width: 180px;
+  height: 37px;
+  border: 1px solid #00cda9;
+  background: #00cda9;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  line-height: 0;
+}
+
+.bannerCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.barBtn {
+  text-align: center;
+  padding: 20px;
+}
+
+.bannerBtn {
+  color: white;
+  padding: 10px 0;
+  margin: 20px;
+  border-radius: 1000px;
+  border: none;
+  width: 240px;
+  height: 50px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background: #00cda9;
+}
+
+.wrap {
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.yellowBar {
+  padding: 5px;
+  text-align: center;
+  background: #ffd800;
+  color: black;
+  font-size: 10px;
+
+}
+
+.subscribe {
+  width: 30%;
+  position: relative;
+  display: flex;
+}
+
+.subscribeTerm {
+  width: 275px;
+  border-right: none;
+  padding: 6.5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribeButton {
+  width: 130px;
+  height: 37px;
+  border: 1px solid #00cda9;
+  background: #00cda9;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.left{
+  text-align:left;
+  float:left;
+  padding-left: 300px;
+}
+
+.right{
+  float:right;
+  text-align:left;
+  padding-right: 250px;
+}
+
+.centered{
+  float:right;
+  text-align:left;
+  padding-right: 100px;
+}
+
+.footer {
+  padding-top: 40px;
+  background: #524b8e;
+  color: white;
+  padding-bottom: 270px;
+}
+
+.footer2 {
+  padding-top: 5px;
+  background: #463f82;
+  color: white;
+  padding-bottom: 45px;
+}
